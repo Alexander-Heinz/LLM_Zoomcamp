@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  ollama:
+    build: .
+    ports:
+      - "11434:11434"
+    volumes:
+      - /root/.ollama
+    container_name: my-ollama-container
