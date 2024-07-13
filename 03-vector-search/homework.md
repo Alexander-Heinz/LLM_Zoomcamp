@@ -63,6 +63,7 @@ We want to put all of them into a single matrix `X`:
 
 What's the shape of X? (`X.shape`). Include the parantheses. 
 
+**(375, 768)**
 
 
 ## Q3. Search
@@ -85,7 +86,7 @@ What's the highest score in the results?
 
 - 65.0 
 - 6.5
-- 0.65
+- **0.65**
 - 0.065
 
 
@@ -158,6 +159,8 @@ After indexing, let's perform the search of the same query from Q1.
 
 What's the ID of the document with the highest score?
 
+**hcbOrJABqX7xbSVQ1e3N**
+
 ## Q6. Hit-rate for Elasticsearch
 
 The search engine we used in Q4 computed the similarity between
@@ -171,7 +174,7 @@ exact search (as in Q4) to approximate search with Elastic.
 
 What's hitrate for our dataset for Elastic?
 
-* 0.93
+* **0.93**
 * 0.73
 * 0.53
 * 0.33
