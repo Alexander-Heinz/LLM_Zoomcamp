@@ -1,5 +1,12 @@
 /02-open-source/ollama/ollama_files
 
+
+*.txn
+*.lance
+.sources
+nohup.out
+*toml
+
 .DS_Store
 
 .gitignore
