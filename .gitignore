@@ -1,6 +1,6 @@
 /02-open-source/ollama/ollama_files
 
-
+*.csv
 *.txn
 *.lance
 .sources
